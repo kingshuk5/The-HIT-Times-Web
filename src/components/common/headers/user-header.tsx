@@ -279,7 +279,7 @@ export const UserHeader = () => {
           <Image
             src="/header/hit_logo_black.webp"
             alt="The HIT Times"
-            className="sm:w-fit w-32 ml-4 "
+            className="sm:w-fit w-32"
             width={100}
             height={50}
           />
@@ -359,7 +359,7 @@ export const UserHeader = () => {
                   href={link.href}
                 >
                   {link.title}
-                </Link>                
+                </Link>
               </li>
             ))}
             <hr />
